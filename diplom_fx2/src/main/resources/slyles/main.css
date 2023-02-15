@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+.text-input{
+    -fx-text-fill: #100f0f;
+    -fx-background-color: #fefdf9;
+    -fx-background-radius: 10;
+    -fx-border-color: #e8bf0689;
+    -fx-border-radius: 10;
+    -fx-padding: 10 20;
+    }
+
+.text-input:focused {
+    -fx-border-color: #e06249;
+    }
+
+.link:hover {
+    -fx-text-fill: #e06249;
+    }
+
+.label {
+    -fx-text-align: center;
+
+}
+
+
+.button{
+    -fx-background-color: #ffc800;
+    -fx-border-radius: 10;
+    -fx-padding: 10 20;
+    }
+.button:hover{
+    -fx-translate-y: -5;
+    }
+.button:pressed{
+     -fx-background-color: #f7e7ab;
+      }
